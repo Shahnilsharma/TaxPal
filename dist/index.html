@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+  
     <title>Document</title>
 </head>
-<body >
-<nav class="list-none container mx-auto px-4 flex flex-wrap justify-between py-10 font-san items-center">
+<body class="" >
+<nav class=" list-none container mx-auto px-4 flex flex-wrap justify-between py-10 font-san items-center">
     <div class="flex space-x-10">
         <ul class="flex flex-row ">
-            <li class=" w-14 h-14 mx-2 "><img class=" mix-blend-multiply " src="/src/image.png" alt=""></li>
+            <li class=" w-14 h-14 mx-2 "><img class=" mix-blend-multiply " src="/src/images/logo.png" alt=""></li>
             <li class="my-4 font-semibold text-xl">Tax<span class="text-[blue]">Pal</span> </li>
         </ul>
-        <ul class="flex mx-auto flex-wrap py-4 space-x-10 text-lg">
-            <li>Features</li>
-            <li>Testimonial</li>
-            <li>Prices</li>
+        <ul class=" hidden md:flex mx-auto flex-wrap py-4 space-x-10 text-lg">
+        <a href="#">Features</a >
+        <a href="#">Testimonial</a >
+        <a href="#">Prices</a >
         </ul>
     </div>
     <ul class="flex py-4 space-x-4 text-lg items-center">
         <li>Sign In</li>
        <div class=""> <li class="bg-[blue] text-white font-semibold w-40 h-12 text-center py-2  rounded-full ">Get Started Today</li></div>
+       <li class="">
+        <h1 class="navOptions cursor-pointer text-2xl flex md:hidden">&#8801</h1>
+        
+
+
+        <div id="menuBar" ></div>
+            
+        </ul>
+       </li>
     </ul>
 </nav>
 
-<div class="flex flex-wrap items-center text-center px-52 py-24 space-x-2  mx-auto text-black font-sans font-bold text-7xl text-slate-900 justify-center">
+<div class="flex flex-wrap items-center text-center px-52 md:py-24 py-3 space-x-2  mx-auto font-sans font-bold text-7xl text-slate-800 justify-center">
     <h1>
         Accounting 
     </h1>
@@ -37,13 +47,70 @@
     </h1>
 </div>
 
-<div class="mx-auto px-64 text justify-center text-center space-x-2">
+<div class=" mx-auto md:px-64 px-4  md:text justify-center text-center md:text-xl space-x-2">
     <h1>
         Most bookkeeping software is accurate, but hard to use.  We make the  
        
     </h1>
     <h1>opposite trade-off, and hope you don’t get audited.</h1>
 </div>
-    
+
+<div class="py-4">
+   <ul class="flex space-x-16 justify-center my-4">
+    <li class="bg-slate-800  text-white font-semibold h-12 text-center py-2  rounded-full fle justify-center w-40 outline  outline-1 "><a  href="">Get 6 months free</a></li>
+    <li class="flex  py-2 justify-center w-40 h-10 outline rounded-full outline-1 "><img class="mix-blend-multiply w-5 h-5" src="/src/images/play.png" alt=""> Watch Video</li>
+   </ul>
+</div>
+
+<div>
+    <h1 class="text-center py-4 font-sans  font-semibold">Trusted By these Six companies So Far</h1>
+    <div >
+        <ul class="flex px-2 space-x-10 justify-center">
+            <li><img class="md:w-24 md:h-10 w-14 h-6" src="/src/images/transistor.7274e6c3.svg" alt=""></li>
+            <li><img class="md:w-24 md:h-10 w-14 h-6" src="/src/images/tuple.74eb0ae0.svg" alt=""></li>
+            <li><img class="md:w-24 md:h-10 w-14 h-6" src="/src/images/statickit.d7937794.svg" alt=""></li>
+            <li><img class="md:w-24 md:h-10 w-14 h-6" src="/src/images/mirage.18d2ec4e.svg" alt=""></li>
+            <li><img class="md:w-24 md:h-10 w-14 h-6" src="/src/images/laravel.7deed17e.svg" alt=""></li>
+            <li><img class="md:w-24 md:h-10 w-14 h-6" src="/src/images/statamic.6da5ebfb.svg" alt=""></li>
+        </ul>
+    </div>
+</div>
+    <!-- page one ends here -->
+
+   <section>
+   <div class="text-center realtive md:overflow-hidden bg-cover bg-no-repeat  p-12 " style="background-image: url('/src/images/background-features.5f7a9ac9.jpg'); height:800px;">
+    <h1 class="font-sans text-white font-semibold text-3xl md:text-5xl p-10    ">Everything you need to run your books.</h1>
+    <h1 class="text-gray-200 font-sans text-md  ">
+        Well everything you need if you aren’t that picky about minor details like tax compliance.
+    </h1>
+
+    <div class="bg-[#ffffff29] md:bg-transparent md:my-0   md:overflow-hidden my-4 text-white text-center rounded-xloutline-white outline-1 ">
+        <ul class="md:hidden options flex justify-between mx-auto items-center p-4 text-[#ffffff7b] text-sm  font-semibold cursor-pointer">
+            <li class="option1  ">Payroll</li>
+            <li class="option2" >Claim expenses</li>
+            <li class="option3">VAT handling</li>
+           <li class="option4"> Reporting</li>
+        </ul>
+        <p id="optionText" class=" text-center mx-auto sm:px-4"></p>
+        <div class="md:rounded-lg">
+            <img class=" px-4  py-2 md:h-[550px] md:py-6  md:w-[1200px]  md:ml-96 " src="/src/images/reporting.jpg" alt="">
+        </div>
+        
+       
+        
+    </div>
+   </div>
+   
+
+   </section>
+
+   <div>
+    this is not 
+   </div>
+    <!-- <h1 class="rounded-full text-blue-700 w-20 py-3  font-bold bg-white">
+                PayRoll
+          </h1> -->
 </body>
+<script src="/dist/script.js"></script>
 </html>
+
