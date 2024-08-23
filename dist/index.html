@@ -77,23 +77,59 @@
 </div>
     <!-- page one ends here -->
 
-   <section>
-   <div class="text-center realtive md:overflow-hidden bg-cover bg-no-repeat  p-12 " style="background-image: url('/src/images/background-features.5f7a9ac9.jpg'); height:800px;">
+   <section class="py-4 ">
+   <div class="text-center md:h-[1000px] realtive md:overflow-hidden bg-cover bg-no-repeat  p-12 " style="background-image: url('/src/images/background-features.5f7a9ac9.jpg'); height:1000px;">
     <h1 class="font-sans text-white font-semibold text-3xl md:text-5xl p-10    ">Everything you need to run your books.</h1>
     <h1 class="text-gray-200 font-sans text-md  ">
         Well everything you need if you aren’t that picky about minor details like tax compliance.
     </h1>
 
-    <div class="bg-[#ffffff29] md:bg-transparent md:my-0   md:overflow-hidden my-4 text-white text-center rounded-xloutline-white outline-1 ">
-        <ul class="md:hidden options flex justify-between mx-auto items-center p-4 text-[#ffffff7b] text-sm  font-semibold cursor-pointer">
+    <div class="bg-[#ffffff29] md:flex   md:bg-transparent md:my-0    my-4 text-white text-center rounded-xl outline-white outline-1 ">
+        <!-- for small screen -->
+        <ul class="md:hidden options flex justify-between mx-auto items-center p-4 text-[#ffffff7b] text-sm  font-semibold cursor-pointer ">
             <li class="option1  ">Payroll</li>
             <li class="option2" >Claim expenses</li>
             <li class="option3">VAT handling</li>
            <li class="option4"> Reporting</li>
         </ul>
-        <p id="optionText" class=" text-center mx-auto sm:px-4"></p>
-        <div class="md:rounded-lg">
-            <img class=" px-4  py-2 md:h-[550px] md:py-6  md:w-[1200px]  md:ml-96 " src="/src/images/reporting.jpg" alt="">
+         <!-- for large screen -->
+    <div class="blueContainer md:h-[600px] hidden  md:flex mx-auto pl-10 lg:pl-36 m-0 p-0 font-sans overflow-hidden py-2 ">
+     <ul class=" py-20 cursor-pointer rounded-lg justify-between">
+          <li class=" payroll  ">
+          <h1 class="font-semibold w-[100px] text-justify mb-2 text ">Payroll</h1>
+          <p class="text-start ">Keep track of everyone's salaries and whether or not they've been
+            paid. Direct deposit not supported.</p>
+          </li>
+          <li class="claim py-4  pl-6 rounded-md  ">
+          <h1 class="font-semibold w-[100px] text-justify mb-2 text-nowrap ">Claim expenses</h1>
+          <p class="text-start ">All of ymlr receipts organized into one place. as long as you don't
+            mind typing in the data by hand.</p>
+          </li>
+          <li class="vat py-4  pl-6 rounded-md  ">
+          <h1 class="font-semibold w-[100px] text-justify mb-2 text ">VAT handling</h1>
+          <p class="text-start ">We only sell software to companies who don't deal with VAT at
+            allr so technically we do a" the VAT stuff they need.</p>
+          </li>
+          <li class="reporting py-4  pl-6 rounded-md  ">
+          <h1 class=" font-semibold w-[100px] text-justify mb-2 text ">Reporting</h1>
+          <p class="text-start ">Easly your data into an Excel spreadsheet where you can do
+            whatever the he" you want with it.</p>
+          </li>
+          
+     </ul>
+     
+     </div>
+     <!-- for larger screen -->
+     <div class="hidden md:flex py-2 md:float-right">
+         <img class=" lgImage  max-w-[120%]    w-[900px] rounded-[1.5rem]  lg:max-w-[160%]    lg:w-[1200px]" src="/src/images/payroll.jpg" alt="">
+     </div>
+        
+       
+        
+<!-- small screen img -->
+        <p id="optionText" class="md:hidden text-center mx-auto sm:px-4"></p>
+        <div class="">
+            <img class="mobileImage md:hidden mx-auto md:mx-0 rounded-[1.2rem] md:rounded-[2.5rem] md:px-0  px-4 py-2 md:h-[700px]  md:py-6 md:w-[1200px] h-[300px]" src="/src/images/payroll.jpg" alt="">
         </div>
         
        
@@ -103,13 +139,17 @@
    
 
    </section>
+  
+   //third page
 
-   <div>
-    this is not 
-   </div>
-    <!-- <h1 class="rounded-full text-blue-700 w-20 py-3  font-bold bg-white">
-                PayRoll
-          </h1> -->
+<section>
+
+
+</section>
+
+
+
+
 </body>
 <script src="/dist/script.js"></script>
 </html>
