@@ -1229,6 +1229,10 @@ video {
     max-width: 160%;
   }
 
+  .lg\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .lg\:pl-36 {
     padding-left: 9rem;
   }
