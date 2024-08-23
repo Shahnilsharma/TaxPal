@@ -53,7 +53,7 @@ options.addEventListener('click', (e) => {
         optionText.textContent=`Keep track of everyone's salaries and whether or not they've been paid. Direct
         deposit not supported.`;
 
-        mobileImg.src = "/src/images/payroll.jpg";
+        mobileImg.src = "./images/payroll.jpg";
     }
     else if (e.target.classList.contains('option2')) {
         option1.className = "option1"
@@ -65,7 +65,7 @@ options.addEventListener('click', (e) => {
         optionText.textContent=`All of your receipts organized into one place, as long as you don't mind typing in the
         data by hand.`;
 
-        mobileImg.src = "/src/images/claim.jpg";
+        mobileImg.src = "./images/claim.jpg";
     }
     else if (e.target.classList.contains('option3')) {
         option1.className = "option1"
@@ -77,7 +77,7 @@ options.addEventListener('click', (e) => {
         optionText.textContent=`We only sell our software to companies who don't deal with VAT at all, so technically
 we do all the VAT stuff they need.`
 
-mobileImg.src = "/src/images/vat.jpg";
+mobileImg.src = "./images/vat.jpg";
     }
     else if (e.target.classList.contains('option4')) {
         option1.className = "option1"
@@ -89,7 +89,7 @@ mobileImg.src = "/src/images/vat.jpg";
         optionText.textContent=`Easily export your data into an Excel spreadsheet where you can do whatever the
 hell you want with it.`
 
-mobileImg.src = "/src/images/reporting.jpg";
+mobileImg.src = "./images/reporting.jpg";
     }
 
     // e.target.className = "bg-white text-blue-700 rounded-full h-10 justify-center items-center pt-2";
@@ -104,14 +104,14 @@ const lgImage=document.querySelector('.lgImage');
 
 //default
 payroll.className="payroll py-4  pl-6 rounded-md  bg-[#ffffff29]";
-lgImage.src="/src/images/payroll.jpg";
+lgImage.src="./images/payroll.jpg";
 
 payroll.addEventListener('click',(e)=>{
     payroll.className="payroll py-4  pl-6 rounded-md  bg-[#ffffff29]";
     claim.className="claim py-4  pl-6";
     vat.className="vat py-4  pl-6";
     reporting.className="reporting py-4  pl-6";
-    lgImage.src="/src/images/payroll.jpg";
+    lgImage.src="./images/payroll.jpg";
 });
 
 claim.addEventListener('click',()=>{
@@ -119,7 +119,7 @@ claim.addEventListener('click',()=>{
     claim.className="claim py-4  pl-6 rounded-md  bg-[#ffffff29]";
     vat.className="vat py-4  pl-6";
     reporting.className="reporting py-4  pl-6";
-    lgImage.src="/src/images/claim.jpg";
+    lgImage.src="./images/claim.jpg";
 });
 
 
@@ -129,7 +129,7 @@ vat.addEventListener('click',(e)=>{
     claim.className="claim py-4  pl-6";
     vat.className="vat py-4  pl-6 rounded-md  bg-[#ffffff29]";
     reporting.className="reporting py-4  pl-6";
-    lgImage.src="/src/images/vat.jpg";
+    lgImage.src="./images/vat.jpg";
 });
 
 reporting.addEventListener('click',(e)=>{
@@ -137,6 +137,6 @@ reporting.addEventListener('click',(e)=>{
     claim.className="claim py-4  pl-6";
     vat.className="vat py-4  pl-6 ";
     reporting.className="reporting py-4  pl-6 rounded-md  bg-[#ffffff29]";
-    lgImage.src="/src/images/reporting.jpg";
+    lgImage.src="./images/reporting.jpg";
 });
 
