@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/src/input.css">
   
-    <title>Document</title>
+    <title>TaxPal</title>
 
        
 </head>
@@ -17,14 +18,14 @@
             <li class="my-4 font-semibold text-xl">Tax<span class="text-[blue]">Pal</span> </li>
         </ul>
         <ul class=" hidden md:flex mx-auto flex-wrap py-4 space-x-10 text-lg">
-        <a href="#">Features</a >
-        <a href="#">Testimonial</a >
-        <a href="#">Prices</a >
+        <a href="#features">Features</a >
+        <a href="#testimonials">Testimonial</a >
+        <a href="#pricing">Prices</a >
         </ul>
     </div>
-    <ul class="flex py-4 space-x-4 text-lg items-center">
-        <li>Sign In</li>
-       <div class=""> <li class="bg-[blue] text-white font-semibold w-40 h-12 text-center py-2  rounded-full ">Get Started Today</li></div>
+    <ul class=" flex py-4 space-x-4 text-lg items-center">
+        <li class="cursor-pointer hover:bg-slate-300 hover:border py-2 px-1  rounded-md"><a href="./signIn.html" target="_blank">Sign In</a></li>
+       <div class=""  > <li class="bg-blue-500 text-white font-semibold w-40 h-12 text-center py-2  rounded-full hover:bg-blue-400 "><a href="./getStarted.html">Get Started Today</a></li></div>
        <li class="">
         <h1 class="navOptions cursor-pointer text-2xl flex md:hidden">&#8801</h1>
         
@@ -59,8 +60,8 @@
 
 <div class="py-4">
    <ul class="flex space-x-16 justify-center my-4">
-    <li class="bg-slate-800  text-white font-semibold h-12 text-center py-2  rounded-full fle justify-center w-40 outline  outline-1 "><a  href="">Get 6 months free</a></li>
-    <li class="flex  py-2 justify-center w-40 h-10 outline rounded-full outline-1 "><img class="mix-blend-multiply w-5 h-5" src="./images/play.png" alt=""> Watch Video</li>
+    <li class="bg-slate-800  text-white font-semibold h-12 text-center py-2  rounded-full fle justify-center w-40 outline  outline-1 "><a  href="./getStarted.html">Get 6 months free</a></li>
+    <li class="cursor-pointer flex  py-2 justify-center w-40 h-10 outline rounded-full outline-1 "><img class="mix-blend-multiply w-5 h-5" src="./images/play.png" alt=""> <a href="https://youtu.be/4DQ9BCq6l-g?si=pKjkecsTddQLnN5r&t=152" target="_blank" >Watch Video</a></li>
    </ul>
 </div>
 
@@ -79,7 +80,7 @@
 </div>
     <!-- page one ends here -->
 
-   <section class="py-4 ">
+   <section id="features" class="py-4 ">
    <div class="text-center md:h-[1000px] realtive md:overflow-hidden bg-cover bg-no-repeat  p-12 " style="background-image: url('./images/background-features.5f7a9ac9.jpg'); height:1000px;">
     <h1 class="font-sans text-white font-semibold text-3xl md:text-5xl p-10    ">Everything you need to run your books.</h1>
     <h1 class="text-gray-200 font-sans text-md  ">
@@ -88,7 +89,7 @@
 
     <div class="bg-[#ffffff29] md:flex   md:bg-transparent md:my-0    my-4 text-white text-center rounded-xl outline-white outline-1 ">
         <!-- for small screen -->
-        <ul class="md:hidden options flex justify-between mx-auto items-center p-4 text-[#ffffff7b] text-sm  font-semibold cursor-pointer ">
+        <ul class="md:hidden options flex justify-between mx-auto items-center p-4 text-[#ffffff7b] text-sm  font-semibold cursor-pointer  ">
             <li class="option1  ">Payroll</li>
             <li class="option2" >Claim expenses</li>
             <li class="option3">VAT handling</li>
@@ -240,22 +241,22 @@
    <ul >
     <li class="font-semibold text-4xl  my-10">Get started today</li>
     <li class="text-center md:pr-[220px] md:pl-[220px] md:px-9 text-lg min-w-52 my-8 mx-auto px-6">It’s time to take control of your books. Buy our software so you can feel like you’re doing something productive.</li>
-    <li class=""><a class="bg-white rounded-full px-2 font-semibold py-3 text-black mt-[100px]" href="#">Get 6 Months Free</a></li>
+    <li class=""><a class="bg-white rounded-full px-2 font-semibold py-3 text-black mt-[100px]" href="./getStarted.html">Get 6 Months Free</a></li>
    </ul>
    </div>
 </section>
 
-<section class=" font-sans">
+<section id="testimonials" class=" font-sans">
    <div>
     <div class=" md:text-center  ">
         <h1 class="font-semibold text-4xl px-2 py-2  ">Loved by businesses worldwide.</h1>
-        <p class=" px-2 py-2 text-lg md:px-80   ">Our software is so simple that people can’t help but fall in love with it. Simplicity is easy when you just skip tons of mission-critical features.</p>
+        <p class=" px-2 py-2 text-lg md:px-64   ">Our software is so simple that people can’t help but fall in love with it. Simplicity is easy when you just skip tons of mission-critical features.</p>
     </div>
     <!-- cards -->
-    <div class="py-14 bg-slate-100 px-6 font-sans md:grid lg:grid-cols-3 md:gap-x-2 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3   ">
+    <div class="py-14 bg-slate-100 px-6 font-sans md:grid lg:grid-cols-3 lg:px-0 lg:gap-x-0  md:gap-x-2 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3   ">
        
 
-       <ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:w-[400px] lg:max-h-[350px]   " >
+       <ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6 lg:max-w-[400px] lg:max-h-[450px]   " >
         <img src="./images/coma.png" class="absolute top-6 left-6 w-[88px] h-[84] opacity-[14%] " alt="">
         <li class="text-xl  py-4">
            TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.
@@ -270,7 +271,7 @@
         </li>
    </ul>
 
-   <ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:w-[400px] lg:max-h-[400px]  " >
+   <ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:max-w-[400px] lg:min-h-[400px]  " >
     <img src="./images/coma.png" class="absolute top-6 left-6 w-[88px] h-[84] opacity-[14%] " alt="">
     <li class="text-xl  py-4">
         The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.
@@ -285,7 +286,7 @@
     </li>
 </ul>
 
-<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6 lg:w-[400px] lg:max-h-[350px]  " >
+<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6 lg:max-w-[400px] lg:min-h-[350px]  " >
     <img src="./images/coma.png" class="absolute top-6 left-6 w-[88px] h-[84] opacity-[14%] " alt="">
     <li class="text-xl  py-4">
         I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.
@@ -302,7 +303,7 @@
     </li>
 </ul>
 
-<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:w-[400px] lg:max-h-[400px]  " >
+<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:max-w-[400px] lg:min-h-[400px]  " >
     <img src="./images/coma.png" class="absolute top-6 left-6 w-[88px] h-[84] opacity-[14%] " alt="">
     <li class="text-xl  py-4">
         I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.
@@ -318,7 +319,7 @@
     </li>
 </ul>
 
-<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6 lg:w-[400px] lg:max-h-[350px]  " >
+<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6 lg:max-w-[400px] lg:min-h-[320px]  " >
     <img src="./images/coma.png" class="absolute top-6 left-6 w-[88px] h-[84] opacity-[14%] " alt="">
     <li class="text-xl  py-4">
         There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.
@@ -333,7 +334,7 @@
     </li>
 </ul>
 
-<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:w-[400px] lg:max-h-[400px]  " >
+<ul class="px-7 relative shadow-xl shadow-slate-900/10   bg-white rounded-2xl  mx-8 py-6 my-6  lg:max-w-[400px] lg:min-h-[400px]  " >
     <img src="./images/coma.png" class="absolute top-6 left-6 w-[88px] h-[84] opacity-[14%] " alt="">
     <li class="text-xl  py-4">
         This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.
@@ -354,7 +355,7 @@
 
 <!-- PAGE 5 -->
 
-<section class="bg-[#172540] font-sans  text-white w-full">
+<section id="pricing" class="bg-[#172540] font-sans  text-white w-full">
 
     <div>
         <div class="px-4 ">
@@ -362,13 +363,12 @@
             <p class="text-slate-400 text-lg  ">It doesn’t matter what size your business is, our software won’t work well for you.</p>
         </div>
 
-        <div class=" md:flex  md:grid-cols-3 md:gap-2 md:mx-4 ">
-
-            <ul class="bg-blue-600  rounded-3xl px-6 py-6 my-4   mx-4 ">
+        <div class="lg:grid lg:grid-cols-3  lg:gap-2 lg:mx-4 md:mx-10     ">
+            <ul class="bg-blue-600  rounded-3xl px-6 py-6 my-4 lg:order-1   mx-auto lg:mx-0   ">
                 <li class="text-6xl py-2  ">$15</li>
                 <li class="py-4 text-lg font-semibold  ">Small business</li>
                 <li class="py-4 text-lg ">Perfect for small / medium sized businesses.</li>
-                <li class="bg-white text-black text-center font-semibold py-2 mx-10 shadow-sm my-4   rounded-full   ">Get Started</li>
+                <li class="bg-white text-black text-center font-semibold py-2 mx-10 shadow-sm my-4   rounded-full   "><a href="./getStarted.html">Get Started</a></li>
                 <div class=" my-6 space-y-5">
                 <li class=" flex "><img class="w-4 h-5    mx-2  " src="./images/checkcircle.png" alt=""> Send 25 quotes and invoices</li>
                 <li class="flex"><img class="w-4 h-5    mx-2  " src="./images/checkcircle.png" alt="">  Connect up to 5 bank accounts</li>
@@ -382,11 +382,11 @@
                 </div>
             </ul>
 
-            <ul class=" rounded-3xl px-6 py-6 my-4 ">
+            <ul class=" rounded-3xl px-6 py-6 my-4 lg:order-1">
                 <li class="text-6xl py-2  ">$9</li>
                 <li class="py-4 text-lg font-semibold  ">Starter</li>
                 <li class="py-4 text-lg text-slate-400 ">Good for anyone who is self-employed and just getting started.</li>
-                <li class=" text-center font-semibold py-2 mx-10 my-4 rounded-full border border-gray-600">Get Started</li>
+                <li class=" text-center font-semibold py-2 mx-10 my-4 rounded-full border border-gray-600"><a href="./getStarted.html">Get Started</a></li>
                 <div class=" my-6 space-y-5">
                 <li class=" flex "><img class="w-4 h-5    mx-2  " src="./images/checkcircle.png" alt=""> Send 10 quotes and invoices</li>
                 <li class="flex"><img class="w-4 h-5    mx-2  " src="./images/checkcircle.png" alt="">  Connect up to 2 bank accounts</li>
@@ -402,7 +402,7 @@
                 <li class="text-6xl py-2  ">$39</li>
                 <li class="py-4 text-lg font-semibold  ">Enterprise</li>
                 <li class="py-4 text-lg  text-slate-400">For even the biggest enterprise companies.</li>
-                <li class="  text-center font-semibold py-2 mx-10 shadow-sm my-4 rounded-full border border-gray-600"  >Get Started</li>
+                <li class="  text-center font-semibold py-2 mx-10 shadow-sm my-4 rounded-full border border-gray-600"  ><a href="./getStarted.html">Get Started</a></li>
                 <div class=" my-6 space-y-5">
                 <li class=" flex "><img class="w-4 h-5    mx-2  " src="./images/checkcircle.png" alt=""> Send unlimited quotes and invoices</li>
                 <li class="flex"><img class="w-4 h-5    mx-2  " src="./images/checkcircle.png" alt="">  Connect up to 5 bank accounts</li>
@@ -424,7 +424,7 @@
     <h1 class=" text-4xl font-semibold my-4">
         Frequently asked questions
     </h1>
-    <p class="text-lg text-slate-300 my-4 ">
+    <p class="text-lg text-slate-400 my-4 ">
         If you can’t find what you’re looking for, email our support team and if you’re lucky someone will get back to you.
     </p>
    </div>
@@ -433,19 +433,19 @@
         <h1 class=" text-lg font-semibold my-4">
             Does TaxPal handle VAT?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             Well no, but if you move your company offshore you can probably ignore it.
         </p>
         <h1 class=" text-lg font-semibold my-4">
             Can I pay for my subscription via purchase order?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             Absolutely, we are happy to take your money in all forms.
         </p>
         <h1 class=" text-lg font-semibold my-4">
             How do I apply for a job at TaxPal?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.
         </p>
     </div>
@@ -454,19 +454,19 @@
         <h1 class=" text-lg font-semibold my-4">
             What was that testimonial about tax fraud all about?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             TaxPal is just a software application, ultimately your books are your responsibility.
         </p>
         <h1 class=" text-lg font-semibold my-4">
             TaxPal sounds horrible but why do I still feel compelled to purchase?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.
         </p>
         <h1 class=" text-lg font-semibold my-4">
             I found other companies called TaxPal, are you sure you can use this name?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.
         </p>
     </div>
@@ -476,19 +476,19 @@
         <h1 class=" text-lg font-semibold my-4">
             How do you generate reports?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.
         </p>
         <h1 class=" text-lg font-semibold my-4">
             Can we expect more inventory features?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             In life it’s really better to never expect anything at all.
         </p>
         <h1 class=" text-lg font-semibold my-4">
             I lost my password, how do I get into my account?
         </h1>
-        <p class="text-sm  text-slate-300 my-4 ">
+        <p class="text-sm  text-slate-400 my-4 ">
             Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.
         </p>
     </div>
@@ -507,16 +507,16 @@
                 <li class="my-4 font-semibold text-xl">Tax<span class="text-[blue]">Pal</span> </li>
             </ul>
             <ul class="  py-4 space-x-10 text-sm text-center ">
-            <a href="#">Features</a >
-            <a href="#">Testimonial</a >
-            <a href="#">Prices</a >
+            <a href="#features">Features</a >
+            <a href="#testimonials">Testimonial</a >
+            <a href="#pricing">Prices</a >
             </ul>
         </div>
      <hr class="py-6">
     <div class=" mx-auto px-6 items-center text-center md:flex md:mx-0 justify-between ">
-        <div class="flex space-x-4 mx-auto px-6 justify-center my-6 md:mx-0   ">
-            <img src="./images/avatar-1.jpg" alt="">
-            <img src="./images/avatar-2.jpg" alt="">
+        <div class="flex space-x-4 mx-auto px-6 justify-center my-6 md:mx-0    ">
+            <img class="w-6  h-6 "   src="./images/xtwitter.png" alt="">
+            <img class="w-6  h-6 "  src="./images/github.png" alt="">
         </div>
         <div class="md:text-end">Copyright  2024 TaxPal. All rights reserved.</div>
     </div>
