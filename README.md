@@ -13,7 +13,7 @@ TaxPal offers a range of features to make tax management easier and more efficie
 
 ## Deployment
 
-I have deployed TaxPal on Vercel, a popular platform for hosting static websites and applications. You can access the live version of TaxPal at [https://tax-pal-sepia.vercel.app/index.html](https://tax-pal-sepia.vercel.app/index.html).
+I have deployed TaxPal on Vercel, a popular platform for hosting static websites and applications. You can access the live version of TaxPal  [Here](https://tax-pal-sepia.vercel.app/).
 
 ## Get Started
 
