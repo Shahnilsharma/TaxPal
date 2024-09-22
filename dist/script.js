@@ -10,9 +10,9 @@ navptions.addEventListener('click',(e)=>{
             <div class="bg-white  text-2xl font-sans  p-10 my-10 space-y-5 rounded-md w-80 h-60  absolute  left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <h1 id="cutOption" class=" cursor-pointer text-2xl text-right md:hidden ">X</h1>
                 <ul class="mx-auto px-6 ">
-                    <li class="block w-200 h-100"><a href="#">Features</a></li>
-                <li class="block w-200 h-100"><a href="#">Testimonial</a ></li>
-                <li class="block w-200 h-100"> <a href="#">Prices</a ></li>
+                    <li class="block w-200 h-100"><a href="#features">Features</a></li>
+                <li class="block w-200 h-100"><a href="#testimonials">Testimonial</a ></li>
+                <li class="block w-200 h-100"> <a href="#pricing">Prices</a ></li>
                  <hr class=" ">
                  <li><a href="#"> Sign In</a></li>
                 </ul>
