@@ -1,4 +1,4 @@
-# My New Project: TaxPal
+# TaxPal Clone App
 I am excited to introduce my latest project, TaxPal! This web application was built using HTML, Tailwind CSS, and JavaScript. It aims to simplify the process of calculating and managing taxes for individuals and businesses.
 
 ## Features
